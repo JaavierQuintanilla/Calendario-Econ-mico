@@ -51,9 +51,7 @@ Vista diaria  → detalle de cada indicador con valor anterior y actual
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/tu-usuario/calendario-economico-chile.git
-cd calendario-economico-chile
-
+git clone https://github.com/JaavierQuintanilla/Calendario-Econ-mico.git
 # 2. Instalar dependencias
 pip install -r requirements.txt
 
