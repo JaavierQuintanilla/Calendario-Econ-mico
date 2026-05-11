@@ -1,4 +1,4 @@
-# 📊 Calendario Económico Chileno 2026
+# Calendario Económico Chileno 2026
 
 API REST con interfaz de calendario visual para el seguimiento de fechas de publicación de los principales indicadores económicos de Chile durante el año 2026.
 
@@ -6,7 +6,7 @@ API REST con interfaz de calendario visual para el seguimiento de fechas de publ
 
 ---
 
-## 📸 Vista previa
+## Vista previa
 
 El calendario presenta una interfaz visual con vista mensual y diaria, filtros por categoría y código de colores por nivel de impacto.
 
@@ -17,30 +17,30 @@ Vista diaria  → detalle de cada indicador con valor anterior y actual
 
 ---
 
-## 📌 Indicadores incluidos
+## Indicadores incluidos
 
 | Código | Indicador | Entidad | Frecuencia | Impacto |
 |---|---|---|---|---|
-| `IPC` | Índice de Precios al Consumidor | INE | Mensual | 🟠 Alto |
-| `IPCSAE` | IPC sin Alimentos y Energía | INE | Mensual | 🟠 Alto |
-| `IMACEC` | Indicador Mensual de Actividad Económica | BCCh | Mensual | 🟠 Alto |
-| `PIB` | Producto Interno Bruto | BCCh | Trimestral | 🟠 Alto |
-| `TPM` | Tasa de Política Monetaria | BCCh | ~8 veces/año | 🔴 Muy alto |
-| `IPoM` | Informe de Política Monetaria | BCCh | Trimestral | 🔴 Muy alto |
-| `IEF` | Informe de Estabilidad Financiera | BCCh | Semestral | 🟠 Alto |
-| `TASA_DESEMPLEO` | Tasa de Desempleo (ENE) | INE | Mensual | 🟠 Alto |
-| `BALANZA_COMERCIAL` | Balanza Comercial | BCCh | Mensual | 🔵 Medio |
-| `BALANZA_PAGOS` | Balanza de Pagos | BCCh | Trimestral | 🔵 Medio |
-| `PRECIO_COBRE` | Precio del Cobre | BCCh | Mensual | 🟠 Alto |
-| `VENTAS_COMERCIO` | Índice de Ventas Minoristas | INE | Mensual | 🔵 Medio |
-| `IPI` | Índice de Producción Industrial | INE | Mensual | 🔵 Medio |
-| `DEUDA_PUBLICA` | Informe de Deuda Pública | Ministerio de Hacienda | Trimestral | 🔵 Medio |
+| `IPC` | Índice de Precios al Consumidor | INE | Mensual | Alto |
+| `IPCSAE` | IPC sin Alimentos y Energía | INE | Mensual | Alto |
+| `IMACEC` | Indicador Mensual de Actividad Económica | BCCh | Mensual | Alto |
+| `PIB` | Producto Interno Bruto | BCCh | Trimestral | Alto |
+| `TPM` | Tasa de Política Monetaria | BCCh | ~8 veces/año | Muy alto |
+| `IPoM` | Informe de Política Monetaria | BCCh | Trimestral | Muy alto |
+| `IEF` | Informe de Estabilidad Financiera | BCCh | Semestral | Alto |
+| `TASA_DESEMPLEO` | Tasa de Desempleo (ENE) | INE | Mensual | Alto |
+| `BALANZA_COMERCIAL` | Balanza Comercial | BCCh | Mensual | Medio |
+| `BALANZA_PAGOS` | Balanza de Pagos | BCCh | Trimestral | Medio |
+| `PRECIO_COBRE` | Precio del Cobre | BCCh | Mensual | Alto |
+| `VENTAS_COMERCIO` | Índice de Ventas Minoristas | INE | Mensual | Medio |
+| `IPI` | Índice de Producción Industrial | INE | Mensual | Medio |
+| `DEUDA_PUBLICA` | Informe de Deuda Pública | Ministerio de Hacienda | Trimestral | Medio |
 
 **Total: 117 eventos distribuidos entre el 1 de enero y el 31 de diciembre de 2026.**
 
 ---
 
-## 🚀 Instalación y uso
+## Instalación y uso
 
 ### Requisitos
 
@@ -71,7 +71,7 @@ El calendario se carga automáticamente.
 
 ---
 
-## 🗂️ Estructura del proyecto
+## Estructura del proyecto
 
 ```
 calendario-economico-chile/
@@ -82,7 +82,7 @@ calendario-economico-chile/
 
 ---
 
-## 🔌 Endpoints de la API
+## Endpoints de la API
 
 Además de la interfaz visual, la API expone endpoints REST consultables directamente:
 
@@ -132,7 +132,7 @@ Además de la interfaz visual, la API expone endpoints REST consultables directa
 
 ---
 
-## 🎨 Interfaz visual
+## Interfaz visual
 
 ### Vista mensual
 Grilla de 7 columnas con los eventos del mes marcados con etiquetas de color según impacto. Hacer clic en cualquier día abre la vista diaria.
@@ -152,7 +152,7 @@ Panel lateral para activar/desactivar categorías temáticas (inflación, activi
 
 ---
 
-## 📚 Fuentes de datos
+## Fuentes de datos
 
 - **Banco Central de Chile (BCCh):** [bcentral.cl](https://www.bcentral.cl)
 - **Instituto Nacional de Estadísticas (INE):** [ine.gob.cl](https://www.ine.gob.cl)
@@ -160,7 +160,7 @@ Panel lateral para activar/desactivar categorías temáticas (inflación, activi
 
 ---
 
-## 🛠️ Tecnologías
+## Tecnologías
 
 - **Backend:** Python 3 · Flask
 - **Frontend:** HTML5 · CSS3 · JavaScript (vanilla)
